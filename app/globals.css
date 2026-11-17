@@ -33,3 +33,31 @@ body {
    padding: 5px;
    border-radius: 0px 0px 10px 10px;
 }
+div.merv{
+   background: #222;
+   width: 60px;
+   height: 260px;
+   margin: auto;
+   margin-top: 200px;
+   border-radius: 60px 0px 60px 0px;
+   transform: rotate(90deg);
+}
+div.merv:hover{
+   animation: circle 0.3s 1s linear infinite;
+}
+@keyframes circle{
+   from{
+     transform: rotate(0deg);
+   }
+   to{
+     transform: rotate(360deg);
+   }
+}
+p{
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  margin-top: 120px;
+  border-radius: 10px;
+}
