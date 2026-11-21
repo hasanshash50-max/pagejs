@@ -1,0 +1,59 @@
+div.parent{
+    border: solid 3px #1d1d1f;
+    border-radius: 6px;
+    width: 420px;
+    height: 420px;
+    margin: auto;
+    margin-top: 40px;
+}
+img{
+    height: 415px;
+}
+nav{
+    position: absolute;
+    top: 43px;
+    width: 415px;
+    border-radius: 3px;
+    display: flex;
+    padding: 7px;
+    gap: 20px;
+    color: #1d1d1f;
+    background: #07f1e5;
+}
+:link{
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+:any-link:hover{
+    background: #3d4ff5;
+}
+span{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 160px;
+}
+u{
+    font-size: 25px;
+    text-underline-offset: 5px;
+    color: #0de4d9;
+    padding: 5px;
+    border-radius: 5px;
+}
+#htma{
+    background: none;
+    margin-left: 63px;
+}
+#htma:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: #0d11e4;
+}
+#ai{
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    position: relative;
+    top: -413px;
+    left: 305px;
+}
