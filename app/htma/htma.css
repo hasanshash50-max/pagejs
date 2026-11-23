@@ -1,42 +1,53 @@
+body{
+    height: 130vh;
+}
 div.parent{
-    border: solid 3px #1d1d1f;
-    border-radius: 6px;
+    border: solid 3px #fff;
+    box-shadow: 1px 1px 3px 3px #2222226e;
+    border-radius: 5px;
     width: 420px;
-    height: 420px;
+    height: 750px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
+    position: relative;
 }
 img{
     height: 415px;
+    border-radius: 5px;
 }
 nav{
     position: absolute;
-    top: 43px;
-    width: 415px;
-    border-radius: 3px;
+    top: -1px;
+    width: 414px;
+    border-radius: 2px;
     display: flex;
     padding: 7px;
     gap: 20px;
     color: #1d1d1f;
-    background: #07f1e5;
+    background: #05d1af; 
 }
-:link{
+:any-link{
     padding: 5px 8px;
     border-radius: 10px;
 }
-:any-link:hover{
+:link:hover{
     background: #3d4ff5;
+}
+.htma{
+    position: relative;
 }
 span{
     color: #fff;
     font-size: 25px;
+    font-weight: bolder;
     position: absolute;
-    top: 160px;
+    top: 120px;
+    left: 5px;
 }
 u{
     font-size: 25px;
     text-underline-offset: 5px;
-    color: #0de4d9;
+    color: #0ac0d8;
     padding: 5px;
     border-radius: 5px;
 }
@@ -50,10 +61,173 @@ u{
     color: #0d11e4;
 }
 #ai{
-    width: 44px;
-    height: 44px;
-    border-radius: 22px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 3px;
+    left: 300px;
+}
+h2{
+    position: absolute;
+    left: 5px;
+    top: 450px;
+    font-size: 15px;
+    font-weight: 560;
+    color: #090a6b;
+}
+div.icons{
+    display: flex;
+    justify-content: center;
+}
+#three,#icon,#laptob{
+    width: 100px;
+    height: 100px;
     position: relative;
-    top: -413px;
-    left: 305px;
+    top: 108px;
+    border: none;
+}
+#three{
+    position: relative;
+    left: -45px;
+}
+#icon{
+    position: relative;
+    left: 3px;
+}
+#laptob{
+    position: relative;
+    left: 50px;
+}
+#modern{
+    position: absolute;
+    top: 610px;
+    right: 5px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+}
+#env{
+    position: absolute;
+    top: 610px;
+    right: 140px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+}
+#sta{
+    position: absolute;
+    top: 610px;
+    left: 20px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+}
+h3{
+    position: absolute;
+    left: 150px;
+    bottom: -200px;
+    font-size: 15px;
+    font-weight: 560;
+    color: #090a6b;
+}
+#i{
+    font-size: 20px;
+    font-style: normal;
+    position: relative;
+    left: 10px;
+}
+h5,h6,h1{
+    border: solid 2px #fff;
+    box-shadow: 1px 1px 3px 2px #2222226e;
+    border-radius: 5px;
+}
+h5{
+    width: 130px;
+    height: 250px;
+    position: relative;
+    top: 60px;
+    left: 5px;
+}
+h6{
+    width: 130px;
+    height: 250px;
+    position: relative;
+    top: -190px;
+    left: 140px;
+}
+h1{
+    width: 130px;
+    height: 250px;
+    position: absolute;
+    left: 276px;
+    top: 300px;
+}
+#it,#ict,#cese{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    left: 13px;
+    top: 20px;
+}
+#ce , #ic , #ti{
+    text-decoration: none;
+    position: absolute;
+    top: 130px;
+    left: 36px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#ic{
+    position: absolute;
+    left: 45px;
+}
+#ti{
+    position: absolute;
+    left: 53px;
+}
+#more , #more1 , #more2{
+    background: #3d4ff5;
+    border-radius: 20px;
+    position: absolute;
+    top: 190px;
+    left: 25px;
+    padding: 4px 20px;
+}
+#more:hover , #more1:hover , #more2:hover{
+    background: #3d4ff5e1;
+} 
+.join{
+    width: 401px;
+    height: 140px;
+    border: solid 2px #fff;
+    box-shadow: 1px 1px 3px 3px #2222226e;
+    border-radius: 5px;
+    position: absolute;
+    top: 570px;
+    left: 5px;
+    background: #fff;
+}
+#ite{
+    width: 200px;
+    height: 137px;
+}
+ul{
+    position: absolute;
+    left: 213px;
+    top: 20px;
+    font-size: 14px;
+}
+#tele{
+   width: 30px;
+   height: 30px;
+   display: inline-block;
+   position: absolute;
+   left: 290px;
+   top: 630px;
+   cursor: pointer;
 }
